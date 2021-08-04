@@ -134,4 +134,21 @@ footer{
 footer p {
     text-align: center;
 }
+
+.powered-by{
+   
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.powered-by p {
+    font-size: 0.8rem;
+}
+.powered-by img {
+    width: auto;
+    height: 30px;
+}
   
