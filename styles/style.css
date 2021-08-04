@@ -122,5 +122,12 @@ body {
       transform: translateX(-100%);
     }
 
+
+}
+
+footer{
+    margin-top: 3rem;
+    border-top: 1px solid #000;
+    text-align: center;
 }
   
