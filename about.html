@@ -11,7 +11,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles/style.css" />
+    <style>
+      .mySlides {display:none;} 
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
@@ -92,7 +96,15 @@
     </nav>
 
     <div class="container w-75">
-        <h2 class="my-4 ">Welcome to Angadi Institute of Technology & Management – AITM</h2>
+        <h2 class="my-4 ">Welcome to <span style=
+          "color: maroon;font-family: serif;font-weight: 600;">Angadi Institute of Technology & Management – AITM</span></h2>
+
+
+          <div class="slider">
+            <img class="mySlides" src="./images/slider1.jpg" style="width:100%">
+            <img class="mySlides" src="./images/slider2.jfif" style="width:100%">
+            <img class="mySlides" src="./images/slider3.jpg" style="width:100%">
+          </div>
       <p>
         Suresh Angadi Education Foundation (SAEF)was established in the year of
         2008 under the leadership of late Shri. Suresh Angadi ji. The Foundation
@@ -159,6 +171,24 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script>
+    >
+
+  </script>
+  <script>
+      var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); 
+}
+  </script>
   </body>
 </html>
