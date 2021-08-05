@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    text-align: justify;
 }
 
 #logo {
@@ -167,3 +169,20 @@ footer p {
     object-fit: cover;
 }
   
+.content-head-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-content p {
+    text-align: justify;
+}
+
+
+.call-for-paper ol li h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.call-for-paper ol li:nth-child(even)
+{
+    color: maroon;
+}
