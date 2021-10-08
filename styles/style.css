@@ -194,3 +194,31 @@ text-align: justify;
 .register-content{
     text-align: justify;
 }
+
+
+.Committees table, td,th{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.Committees table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Committees h2{
+    color: blue;
+}
+
+.Committees h3,h5{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Committees h3{
+    color: maroon;
+ }
+
+ .Committees #sub_title{
+     color: #000;
+     
+ }
