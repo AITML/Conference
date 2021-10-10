@@ -222,3 +222,30 @@ text-align: justify;
      color: #000;
      
  }
+ .mgmt_box{
+     width: 100%;
+     /* border: 2px solid salmon; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    }
+    
+    .mgmt_box .mgmt_images{
+        width: 360px;
+     height: auto;
+     margin-bottom: 1rem;
+   
+
+ }
+
+ .mgmt_box_content{
+     padding: 1rem;
+     margin-bottom: 2rem;
+ }
+
+ .mgmt_box_img h2{
+    text-align: center;
+    font-weight: bolder;
+ }
+
